@@ -25,7 +25,6 @@ import java.util.stream.Stream;
  * Beware: r must be without duplicates.
  */
 public class WhichAreIn {
-
     public static String[] solution(String[] a, String[] b) {
         return Stream.of(a)
                 .filter(x -> Stream.of(b).anyMatch(y -> y.contains(x)))

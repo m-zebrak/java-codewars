@@ -13,9 +13,7 @@ import java.util.stream.IntStream;
  * ['a','b','c','d','f'] -> 'e' ['O','Q','R','S'] -> 'P'
  */
 public class FindTheMissingLetter {
-
     public static char solution(char[] chars) {
-
         int pos = IntStream.range(1, chars.length)
                 .filter(index -> (chars[index] - chars[index - 1] != 1))
                 .findFirst().getAsInt();

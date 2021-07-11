@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ConvertStringToCamelCaseTest {
-
     @Test
     public void testSomeUnderscoreLowerStart() {
         String input = "the_Stealth_Warrior";
