@@ -10,6 +10,7 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 ## 7 kyu
 
 -  [ExesAndOhns](src/main/java/me/m_zebrak/kyu7/ExesAndOhs.java)
+-  [ShortestWord](src/main/java/me/m_zebrak/kyu7/ShortestWord.java)
 -  [SquareEveryDigit](src/main/java/me/m_zebrak/kyu7/SquareEveryDigit.java)
 
 ## 6 kyu
