@@ -6,6 +6,7 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 
 1. [7 kyu](#7-kyu)
 2. [6 kyu](#6-kyu)
+2. [5 kyu](#5-kyu)
 
 ## 7 kyu
 
@@ -21,3 +22,7 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 - [TakeATenMinuteWalk](src/main/java/me/m_zebrak/kyu6/TakeATenMinuteWalk.java)
 - [TortoiseRacing](src/main/java/me/m_zebrak/kyu6/TortoiseRacing.java)
 - [WhichAreIn](src/main/java/me/m_zebrak/kyu6/WhichAreIn.java)
+
+## 5 kyu
+
+- [DirectionsReduction](src/main/java/me/m_zebrak/kyu5/DirectionsReduction.java)
