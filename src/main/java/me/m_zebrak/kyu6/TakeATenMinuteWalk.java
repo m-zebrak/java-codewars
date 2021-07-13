@@ -14,8 +14,6 @@ package me.m_zebrak.kyu6;
  */
 public class TakeATenMinuteWalk {
     public static boolean solution(char[] walk) {
-        if (walk.length != 10) return false;
-
         int x = 0;
         int y = 0;
 
@@ -28,7 +26,7 @@ public class TakeATenMinuteWalk {
             }
         }
 
-        return (y == 0 && x == 0);
+        return y == 0 && x == 0 && walk.length == 10;
     }
 
     public static boolean solution2(char[] walk) {
