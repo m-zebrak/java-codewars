@@ -2,6 +2,7 @@ package me.m_zebrak.kyu6;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * Alice and Bob were on a holiday. Both of them took many pictures of the places they've been, and now they want to
@@ -22,7 +23,7 @@ import java.util.Collections;
  */
 public class DeleteOccurrencesOfAnElement  /*if it occurs more than n times*/ {
     public static int[] solution(int[] elements, int n) {
-        ArrayList<Integer> lst = new ArrayList();
+        List<Integer> lst = new ArrayList();
 
         for (Integer e : elements)
             if (Collections.frequency(lst, e) < n) lst.add(e);
