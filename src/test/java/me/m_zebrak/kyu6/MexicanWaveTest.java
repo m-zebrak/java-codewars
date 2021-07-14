@@ -54,7 +54,7 @@ class MexicanWaveTest {
     }
 
     @Nested
-    @DisplayName("solution 2")
+    @DisplayName("solution2")
     @TestInstance(Lifecycle.PER_CLASS)
     class solution2 {
         @Test

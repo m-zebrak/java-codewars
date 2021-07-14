@@ -3,7 +3,9 @@ package me.m_zebrak.kyu6;
 import java.util.Arrays;
 
 /**
- * Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case).
+ * Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word
+ * within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also
+ * often referred to as Pascal case).
  * <p>
  * Examples
  * "the-stealth-warrior" gets converted to "theStealthWarrior"
