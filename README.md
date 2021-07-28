@@ -28,4 +28,5 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 ## 5 kyu
 
 - [DirectionsReduction](src/main/java/me/m_zebrak/kyu5/DirectionsReduction.java)
+- [DoubleCola](src/main/java/me/m_zebrak/kyu5/DoubleCola.java)
 - [PaginationHelper](src/main/java/me/m_zebrak/kyu5/PaginationHelper.java)
