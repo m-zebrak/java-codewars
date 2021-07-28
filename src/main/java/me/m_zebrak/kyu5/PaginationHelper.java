@@ -27,7 +27,7 @@ import java.util.List;
  */
 
 public class PaginationHelper<I> {
-    private Collection<I> collection;
+    private List<I> collection;
     private int itemsPerPage;
 
     /**
