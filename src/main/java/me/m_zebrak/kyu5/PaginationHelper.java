@@ -1,6 +1,5 @@
 package me.m_zebrak.kyu5;
 
-import java.util.Collection;
 import java.util.List;
 
 /**
