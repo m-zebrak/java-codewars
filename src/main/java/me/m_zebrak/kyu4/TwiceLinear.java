@@ -1,5 +1,7 @@
 package me.m_zebrak.kyu4;
 
+import java.util.TreeSet;
+
 /**
  * Consider a sequence u where u is defined as follows:
  * <p>
@@ -20,6 +22,19 @@ package me.m_zebrak.kyu4;
  */
 public class TwiceLinear {
     public static int solution(int n) {
+        TreeSet<Integer> set = new TreeSet<>() {{
+            add(1);
+        }};
+        int x;
+        for (int i = 0; i < n; i++) {
+            x = set.pollFirst();
+            set.add(2 * x + 1);
+            set.add(3 * x + 1);
+        }
+        return set.first();
+    }
+
+    public static int solution2(int n) {
         int[] nums = new int[n + 1];
         nums[0] = 1;
 
