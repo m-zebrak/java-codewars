@@ -31,3 +31,4 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 - [DoubleCola](src/main/java/me/m_zebrak/kyu5/DoubleCola.java)
 - [PaginationHelper](src/main/java/me/m_zebrak/kyu5/PaginationHelper.java)
 - [PerimeterOfSquaresInARectangle](src/main/java/me/m_zebrak/kyu5/PerimeterOfSquaresInARectangle.java)
+- [ProductOfConsecutiveFibNumbers](src/main/java/me/m_zebrak/kyu5/ProductOfConsecutiveFibNumbers.java)
