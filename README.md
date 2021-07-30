@@ -7,6 +7,7 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 1. [7 kyu](#7-kyu)
 2. [6 kyu](#6-kyu)
 2. [5 kyu](#5-kyu)
+2. [4 kyu](#4-kyu)
 
 ## 7 kyu
 
@@ -32,3 +33,8 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 - [PaginationHelper](src/main/java/me/m_zebrak/kyu5/PaginationHelper.java)
 - [PerimeterOfSquaresInARectangle](src/main/java/me/m_zebrak/kyu5/PerimeterOfSquaresInARectangle.java)
 - [ProductOfConsecutiveFibNumbers](src/main/java/me/m_zebrak/kyu5/ProductOfConsecutiveFibNumbers.java)
+
+## 4 kyu
+
+- [TwiceLinear](src/main/java/me/m_zebrak/kyu4/TwiceLinear.java)
+
