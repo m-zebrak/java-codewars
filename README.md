@@ -36,5 +36,6 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 
 ## 4 kyu
 
+- [CatchingCarMileageNumbers](src/main/java/me/m_zebrak/kyu4/CatchingCarMileageNumbers.java)
 - [TwiceLinear](src/main/java/me/m_zebrak/kyu4/TwiceLinear.java)
 
