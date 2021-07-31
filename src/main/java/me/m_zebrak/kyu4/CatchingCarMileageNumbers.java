@@ -1,5 +1,7 @@
 package me.m_zebrak.kyu4;
 
+import java.util.stream.IntStream;
+
 /**
  * Let's make it so Bob never misses another interesting number. We've hacked into his car's computer, and we have a box hooked up that reads mileage numbers. We've got a box glued to his dash that lights up yellow or green depending on whether it receives a 1 or a 2 (respectively).
  * <p>
@@ -39,6 +41,23 @@ package me.m_zebrak.kyu4;
  */
 public class CatchingCarMileageNumbers {
     public static int solution(int number, int[] awesomePhrases) {
+        return testNumberShorter(number, awesomePhrases) ? 2 :
+               testNumberShorter(number + 1, awesomePhrases) ? 1 :
+               testNumberShorter(number + 2, awesomePhrases) ? 1 : 0;
+    }
+
+    public static boolean testNumberShorter(int number, int[] awesomePhrases) {
+        String numberStr = Integer.toString(number);
+        return numberStr.length() >= 3 &&
+               (numberStr.matches("\\d0+") ||
+                numberStr.chars().distinct().count() == 1 ||
+                "1234567890".contains(numberStr) ||
+                "9876543210".contains(numberStr) ||
+                numberStr.equals(new StringBuilder(numberStr).reverse().toString()) ||
+                IntStream.of(awesomePhrases).anyMatch(i -> i == number));
+    }
+
+    public static int solution2(int number, int[] awesomePhrases) {
         if (testNumber(number, awesomePhrases)) return 2;
         if (testUpcoming2(number, awesomePhrases)) return 1;
         return 0;
@@ -47,7 +66,7 @@ public class CatchingCarMileageNumbers {
     public static boolean testNumber(int number, int[] awesomePhrases) {
         String numberStr = Integer.toString(number);
         return (hasAtLeast3Digits(numberStr) && (followedByZeros(numberStr) || sameNumbers(numberStr) || sequentialIncrementing(numberStr)
-                || sequentialDecrementing(numberStr) || palindrome(numberStr) || matchInArray(number, awesomePhrases)));
+                                                 || sequentialDecrementing(numberStr) || palindrome(numberStr) || matchInArray(number, awesomePhrases)));
     }
 
     public static boolean testUpcoming2(int number, int[] awesomePhrases) {
