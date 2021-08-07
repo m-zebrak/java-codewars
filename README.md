@@ -38,5 +38,6 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 
 - [CatchingCarMileageNumbers](src/main/java/me/m_zebrak/kyu4/CatchingCarMileageNumbers.java)
 - [CodewarsStyleRankingSystem](src/main/java/me/m_zebrak/kyu4/CodewarsStyleRankingSystem.java)
+- [SortBinaryTreeByLevels](src/main/java/me/m_zebrak/kyu4/SortBinaryTreeByLevels.java)
 - [TwiceLinear](src/main/java/me/m_zebrak/kyu4/TwiceLinear.java)
 
