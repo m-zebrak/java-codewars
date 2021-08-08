@@ -20,6 +20,7 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 - [ConvertStringToCamelCase](src/main/java/me/m_zebrak/kyu6/ConvertStringToCamelCase.java)
 - [DeleteOccurrencesOfAnElement](src/main/java/me/m_zebrak/kyu6/DeleteOccurrencesOfAnElement.java)
 - [FindTheMissingLetter](src/main/java/me/m_zebrak/kyu6/FindTheMissingLetter.java)
+- [FindTheOddInt](src/main/java/me/m_zebrak/kyu6/FindTheOddInt.java)
 - [MexicanWave](src/main/java/me/m_zebrak/kyu6/MexicanWave.java)
 - [MultiplesOf3Or5](src/main/java/me/m_zebrak/kyu6/MultiplesOf3Or5.java)
 - [TakeATenMinuteWalk](src/main/java/me/m_zebrak/kyu6/TakeATenMinuteWalk.java)
