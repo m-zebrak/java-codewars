@@ -21,5 +21,4 @@ class ConvertAHexStringToRGBTest {
         assertArrayEquals(ConvertAHexStringToRGB.solution("#beaded"), new int[]{190, 173, 237});
         assertArrayEquals(ConvertAHexStringToRGB.solution("#Fa3456"), new int[]{250, 52, 86});
     }
-
 }
