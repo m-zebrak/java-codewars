@@ -18,6 +18,7 @@ My solutions to some of the [codewars.com](http://codewars.com/) challenges
 ## 6 kyu
 
 - [ConvertStringToCamelCase](src/main/java/me/m_zebrak/kyu6/ConvertStringToCamelCase.java)
+- [CreatePhoneNumber](src/main/java/me/m_zebrak/kyu6/CreatePhoneNumber.java)
 - [DeleteOccurrencesOfAnElement](src/main/java/me/m_zebrak/kyu6/DeleteOccurrencesOfAnElement.java)
 - [FindTheMissingLetter](src/main/java/me/m_zebrak/kyu6/FindTheMissingLetter.java)
 - [FindTheOddInt](src/main/java/me/m_zebrak/kyu6/FindTheOddInt.java)
